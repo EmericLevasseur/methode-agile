@@ -1,3 +1,7 @@
+body
+{
+    overflow-x : hidden;
+}
 .navbar{
     background: #000 url('img/bkg-nav.png') center bottom no-repeat;
     border-width: 0px;
@@ -85,4 +89,29 @@
     #navbar{
         height: 93vh;
     }
+}
+
+/*CONTACT*/
+#contact
+{
+    background : #000 url("img/background_contact.jpg") no-repeat center center;
+    padding : 0 0 76px 0;
+}
+#contact a
+{
+    color : #A7272A;
+}
+#contact p, #contact h4
+{
+    color : #FFF;
+}
+#contact h2, #contact h3
+{
+    color : #FFF;
+    text-transform : uppercase;
+}
+#sumerian
+{
+    max-width : 100%;
+    vertical-align : middle;
 }
