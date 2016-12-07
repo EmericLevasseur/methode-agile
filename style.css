@@ -1,0 +1,88 @@
+.navbar{
+    background: #000 url('img/bkg-nav.png') center bottom no-repeat;
+    border-width: 0px;
+    overflow: hidden;
+}
+#navbar .logo-min img{
+    height: 60px;
+}
+#navbarSmall img.nav-logo{
+    height: 60px;
+    padding:5px 20px;
+}
+#navbar .logo-min h1{
+    padding: 8px 20px;
+    margin:0;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.navbar{
+    font-family: "Open Sans Condensed",sans-serif;
+    text-transform: uppercase;
+}
+.navbar-nav > li > a{
+    padding: 28px 20px;
+}
+.nav > li > a {
+    color:#eee;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: transparent;
+    text-decoration: none;
+    color:#fff;
+    text-shadow:1px 0px 0px #fff;
+}
+.navbar-toggle{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.navbar-toggle .icon-bar{
+    background-color: #eee;
+}
+#navbarSmall a{
+    display: none;
+}
+
+/* RESPONSIVE */
+/* reduced */
+@media (max-width: 826px) {
+    .navbar-nav > li > a{
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    #news {
+        padding-top: 1rem;
+    }
+}
+/* small menu */
+@media (max-width: 767px) {
+    .navbar-nav > li > a{
+        padding: 3% 16px;
+    }
+    .navbar .navbar-nav {
+        display: block;
+    }
+    .nav > li > a{
+        font-size: 30px;
+    }
+    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse{
+        max-height: 100%;
+    }
+    #navbarSmall a{
+        display: inline-block;
+    }
+    #navbar .logo-min{
+        display: none;
+    }
+    #navbar{
+        height: 93vh;
+    }
+}
