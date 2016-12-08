@@ -7,6 +7,8 @@
 <a href="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/register.php">Inscription</a>
 <a href="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/login.php">Connexion</a>
 <a href="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/contact.php">Contact</a>
+<a href="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/bio.php">Bio/son</a>
+
 </div>
 
 <section id="contact">
@@ -37,7 +39,6 @@
 			</div>
 		</div>
 	</section>
-
 
 <?php
 	get_footer();
