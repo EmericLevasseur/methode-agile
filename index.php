@@ -41,6 +41,22 @@
 			</div>
 		</div>
 	</section>
+<section id="social"> <!-- Partie Réseaux Sociaux -->
+    <div class="row text-center">
+       <div class="col-md-6">
+        <h3>Rejoignez nous sur Facebook</h3>
+            <?php
+            echo do_shortcode("[custom-facebook-feed]");
+            ?>
+        </div>
+        <div class="col-md-6">
+            <h3>Last Tweets</h3>
+                <?php
+                echo do_shortcode("[jltw]");
+                ?>
+        </div>
+    </div>   
+</section>
 
 <?php
 	get_footer();
