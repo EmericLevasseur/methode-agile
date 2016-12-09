@@ -13,7 +13,6 @@
 
 </div>
 
-<?php include("video.php"); ?>
 <section id="contact">
 		<div class="row">
 

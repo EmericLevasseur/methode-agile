@@ -39,7 +39,7 @@
                         <li><a href="#bio_son" class="mon_scroll">Bio</a></li>
                         <li><a href="#">Calendrier</a></li>
                         <li class="logo-min"><h1><a href="" data-target="home"><img class="nav-logo" src="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/img/logo-min.png" alt="Betraying The Martyrs" /></a></h1></li>
-                        <li><a href="#">Clip</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/clip.php">Clip</a></li>
                         <li><a href="#contact" class="mon_scroll">Contact</a></li>
                         <li><a href="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/register.php">Espace Pro</a></li>
                     </ul>
