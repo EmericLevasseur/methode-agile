@@ -8,8 +8,8 @@
 	    <meta name="keywords" content="">
 	    <meta name="author" content="">
 	    <meta name="robots" content="">
-	    <title>Test</title>
-	    <link rel="icon" type="image/png" href="<?php bloginfo('url'); ?>/wp-content/themes/" />
+	    <title>Betrayal the Martyrs</title>
+	    <link rel="icon" type="image/png" href="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/img/logo-min.png" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
