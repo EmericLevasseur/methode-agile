@@ -20,7 +20,44 @@
 	</head>
 <body>
 
+
 <nav class="navbar navbar-fixed-top">
+	<div class="container-fluid">
+	  <div class="navbar-header" id="navbarSmall">
+                    <a href="#home" data-target="home"><img class="nav-logo" src="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/img/logo-min.png" alt="Betraying The Martyrs" /></a>
+                    <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+      </div>
+	   <div class="navbar-collapse collapse" id="navbar">
+	<?php $defaults = array(
+		'theme_location' == '',
+		'menu' == 'menu_general',
+		'container' == '',
+		'container_class' == "navbar navbar-default",
+		'container_id' == '',
+		'menu_class' == 'menu',
+		'menu_id' == '',
+		'echo' == true,
+		'fallback_cb' == 'wp_page_menu',
+		'before' == '',
+		'after' == '',
+		'link_before' == '',
+		'link_after' == '',
+		'items_wrap' == '<ul class="nav navbar-nav">%3$s</ul>',
+		'depth' == '',
+		'walker' == ''
+		);
+		wp_nav_menu($defaults);
+	?>
+	   </div>
+	</div>
+</nav>
+
+<!--<nav class="navbar navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header" id="navbarSmall">
                     <a href="#home" data-target="home"><img class="nav-logo" src="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/img/logo-min.png" alt="Betraying The Martyrs" /></a>
@@ -43,7 +80,7 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> -->
 
 				<div class="homepage-hero-module">
 

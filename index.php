@@ -3,13 +3,13 @@
 
 ?>
 
-<div style=" margin-top: 120px;">
+<!--<div style=" margin-top: 120px;">
 <h1>test</h1>
 
 <a href="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/register.php">Inscription</a>
 <a href="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/login.php">Connexion</a>
 <a href="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/contact.php">Contact</a>
-<a href="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/bio.php">Bio/son</a>
+<a href="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/bio.php">Bio/son</a> -->
 
 </div> 
 
