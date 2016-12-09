@@ -13,6 +13,26 @@
 
 </div>
 
+<section id="social"> <!-- Partie Réseaux Sociaux -->
+    <div class="row text-center">
+    	<div class="col-md-12">
+    		<h2>News</h2>
+    	</div>
+       <div class="col-md-6">
+       	<div class="petitmargebot">
+        <h3>Rejoignez nous sur Facebook</h3>
+            <?php
+            echo do_shortcode("[custom-facebook-feed]");
+            ?>
+           </div>
+        </div>
+        <div class="col-md-6">
+            <h3>Last Tweets</h3>
+                <a class="twitter-timeline" data-width="600" data-height="700" data-theme="dark" data-link-color="#E81C4F" href="https://twitter.com/MartyrsTweets">Tweets by MartyrsTweets</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+</section>
+
 <section id="contact">
 		<div class="row">
 
@@ -41,22 +61,7 @@
 			</div>
 		</div>
 	</section>
-<section id="social"> <!-- Partie Réseaux Sociaux -->
-    <div class="row text-center">
-       <div class="col-md-6">
-        <h3>Rejoignez nous sur Facebook</h3>
-            <?php
-            echo do_shortcode("[custom-facebook-feed]");
-            ?>
-        </div>
-        <div class="col-md-6">
-            <h3>Last Tweets</h3>
-                <?php
-                echo do_shortcode("[jltw]");
-                ?>
-        </div>
-    </div>
-</section>
+
 
 <?php
 	get_footer();

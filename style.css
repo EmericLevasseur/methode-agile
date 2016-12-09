@@ -239,6 +239,7 @@ body
 }
 
 
+
 /* Footer */
 
 .footer-distributed{
@@ -314,4 +315,22 @@ body
   .footer-distributed .footer-left p.footer-links{
     line-height: 1.8;
   }
+}
+
+#social{
+  background: black url("img/bkg-noise.png") repeat;
+}
+
+#social h2{
+  margin-top: 50px;
+  color: #fff;
+}
+
+#social h3{
+  margin: 50px 0;
+  color: #fff;
+}
+
+.petitmargebot{
+  margin-bottom: 200px;
 }
