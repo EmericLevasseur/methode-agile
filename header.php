@@ -57,7 +57,7 @@
 
 					        </div>
 
-					        <video autoplay loop muted class="fillWidth">
+					        <video autoplay loop class="fillWidth">
 	                			<source src="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/BETRAYING.mp4" type="video/mp4">
 	                		</video>
 
