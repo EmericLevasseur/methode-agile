@@ -11,9 +11,8 @@
 <a href="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/contact.php">Contact</a>
 <a href="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/bio.php">Bio/son</a> -->
 
-</div> 
+</div>
 
-<?php include("video.php"); ?>
 <section id="contact">
 		<div class="row">
 
@@ -56,7 +55,7 @@
                 echo do_shortcode("[jltw]");
                 ?>
         </div>
-    </div>   
+    </div>
 </section>
 
 <?php

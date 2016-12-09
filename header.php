@@ -13,10 +13,12 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/js/smooth_scrolling.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/js/video.js"></script>
+
 	</head>
 <body>
 
@@ -74,7 +76,7 @@
                         <li><a href="#bio_son" class="mon_scroll">Bio</a></li>
                         <li><a href="#">Calendrier</a></li>
                         <li class="logo-min"><h1><a href="" data-target="home"><img class="nav-logo" src="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/img/logo-min.png" alt="Betraying The Martyrs" /></a></h1></li>
-                        <li><a href="#">Clip</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/clip.php">Clip</a></li>
                         <li><a href="#contact" class="mon_scroll">Contact</a></li>
                         <li><a href="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/register.php">Espace Pro</a></li>
                     </ul>
