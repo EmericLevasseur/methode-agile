@@ -16,6 +16,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/js/smooth_scrolling.js"></script>
+		<script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/js/video.js"></script>
 	</head>
 <body>
 
@@ -43,3 +44,23 @@
                 </div>
             </div>
         </nav>
+
+				<div class="homepage-hero-module">
+
+				    <div class="video-container">
+
+				    	<div class="pattern"></div>
+
+					        <div class="title-container">
+
+							<!-- LOGO -->
+
+					        </div>
+
+					        <video autoplay loop class="fillWidth">
+	                			<source src="<?php bloginfo('url'); ?>/wp-content/themes/methode-agile/BETRAYING.mp4" type="video/mp4">
+	                		</video>
+
+				    </div>
+
+				</div>
